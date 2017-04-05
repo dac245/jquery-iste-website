@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#about{
+	padding: 5px;
+}
+
+#auth{
+	text-align: center;
+	font-style: italic;
+}
+
+#content{
+	padding: 5px;
+	color: white;
+	background: linear-gradient(#557f90, #7ea4b3);
+}
+
+#graduate{
+	padding: 5px;
+	color: white;
+	background: linear-gradient(#7ea4b3, #557f90);
+}
+
+#minors{
+	padding: 5px;
+	border: 1px solid black;
+}
+
+#employment{
+	padding: 5px;
+	color: white;
+	background: linear-gradient(#557f90, #7ea4b3);
+}
+
+#people{
+	padding: 5px;
+	text-align: center;
+}
+
+#research{
+	padding: 5px;
+	margin: 10%;
+	text-align: center;
+}
+
+#resources{
+	padding: 5px;
+}
+
+.stylePics{
+	height: 200px;
+	width: 150px;
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.bstyle{
+	display: inline-block;
+	cursor: pointer;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.bstyle:hover{
+	background-color: lightgray;
+}
+
+.bstyle:active{
+	background-color: gray;
+}
+
+h1{
+	font-size: 2em;
+}
+
+#StudentsMap{
+	height: 500px;
+	width: 100%;
+}
+
+#coop{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	padding: 50px;
+	height: 150px;
+	background: linear-gradient(#7ea4b3, #557f90);
+}
+
+.makeBtn{
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: red;
+	border-radius: 10px;
+	width: 40%;
+	float: left;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.makeBtnRight{
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: blue;
+	border-radius: 10px;
+	width: 40%;
+	float: right;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.makeBtn:hover{
+	border: 2px solid black;
+}
+
+.makeBtnRight:hover{
+	border: 2px solid black;
+}
+
+.makeBtn:active{
+	background-color: pink;
+}
+
+.makeBtnRight:active{
+	background-color: lightblue;
+}
+
+.emp{
+	text-align: center;
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th{
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.popup-scroll{
+  /* Overflow Scroll */
+  overflow-y: scroll;
+  max-height: 500px;
+  padding: 20px;
+}
+
+.popup-scrollTab{
+  /* Overflow Scroll */
+  overflow-y: scroll;
+  max-height: 500px;
+  padding: 0 0 0 0;
+}
+
+.centPop{
+	width: 100%;
+}
+
+.chngCol{
+	color: #CFCFC4;
+}
+
+.clearit{
+	clear: both;
+}
+
+.minPop{
+	border: 1px solid black;
+	background-color: #F36E21;
+	padding: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.minPop:hover{
+	background-color: lightgray;
+}
+
+.minPop:active{
+	background-color: gray;
+}
+
+.resPop{
+	border: 1px solid black;
+	float: left;
+	background-color: #F36E21;
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.resPop:hover{
+	background-color: lightgray;
+}
+
+.resPop:active{
+	background-color: gray;
+}
+
+.facPop{
+	border: 1px solid black;
+	float: left;
+	background-color: #F36E21;
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.facPop:hover{
+	background-color: lightgray;
+}
+
+.facPop:active{
+	background-color: gray;
+}
+
+.smallFit{
+	height: 200px;
+}
+
+.smallFit2{
+	height: 150px;
+}
+
+#btnTemp1{
+	border: 1px solid black;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #F36E21;
+}
+
+#btnTemp2{
+	border: 1px solid black;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #F36E21;
+}
+
+#btnTemp3{
+	border: 1px solid black;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #F36E21;
+}
+
+#btnTemp4{
+	border: 1px solid black;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #F36E21;
+}
+
+#btnTemp5{
+	border: 1px solid black;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #F36E21;
+}
+
+#btnTemp6{
+	border: 1px solid black;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #F36E21;
+}
+
+#btnTemp1:hover{
+	background-color: lightgray;
+}
+
+#btnTemp2:hover{
+	background-color: lightgray;
+}
+
+#btnTemp3:hover{
+	background-color: lightgray;
+}
+
+#btnTemp4:hover{
+	background-color: lightgray;
+}
+
+#btnTemp5:hover{
+	background-color: lightgray;
+}
+
+#btnTemp6:hover{
+	background-color: lightgray;
+}
+
+#btnTemp1:active{
+	background-color: gray;
+}
+
+#btnTemp2:active{
+	background-color: gray;
+}
+
+#btnTemp3:active{
+	background-color: gray;
+}
+
+#btnTemp4:active{
+	background-color: gray;
+}
+
+#btnTemp5:active{
+	background-color: gray;
+}
+
+#btnTemp6:active{
+	background-color: gray;
+}
